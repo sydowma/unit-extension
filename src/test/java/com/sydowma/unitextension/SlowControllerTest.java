@@ -1,7 +1,9 @@
 package com.sydowma.unitextension;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+@ExtendWith(GlobalTimeOutExtension.class)
 public class SlowControllerTest {
 
     @Test
